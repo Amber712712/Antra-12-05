@@ -1,0 +1,109 @@
+.header {
+  position: fixed;
+  background-color: #000;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 48px;
+}
+.header ul {
+  position: absolute;
+  left: 15%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header ul li {
+  float: left;
+}
+.header ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+.header ul li a:hover {
+  background: #333333;
+}
+.Main-above {
+  position: fixed;
+  background: #c6bfbf;
+  width: auto;
+  height: 200px;
+  width: 100%;
+  top: 48px;
+}
+.Main-above h1 {
+  font-size: 32px;
+  padding-top: 3%;
+  position: absolute;
+  left: 15%;
+}
+.Main-above p {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  padding-top: 8%;
+}
+.Main-below {
+  position: fixed;
+  top: 250px;
+}
+.Main-below .Main-below_content {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Main-below .Main-below_content p:first-child {
+  padding-left: 15%;
+  margin-right: 5%;
+}
+.Main-below .Main-below_content p:last-child {
+  padding-right: 15%;
+  margin-left: 5%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  background: #0b4d14;
+}
+.footer .footer_content1 {
+  position: absolute;
+  overflow: hidden;
+  left: 12%;
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  width: 30%;
+}
+.footer .footer_content1 li {
+  float: left;
+  margin-right: 10%;
+}
+.footer .footer_content1 li a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.footer .footer_content2 {
+  position: absolute;
+  right: 12%;
+  overflow: hidden;
+  width: 30%;
+  padding-top: 1rem;
+}
+.footer .footer_content2 li {
+  float: right;
+  margin-left: 10%;
+}
+.footer .footer_content2 li a {
+  color: white;
+  text-decoration: none;
+}
